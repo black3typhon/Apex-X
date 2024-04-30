@@ -1,0 +1,144 @@
+/*For Tablets*/
+@media only screen and (max-width: 991px) {
+  /*Core*/
+  .container {
+    width: 95%;
+  }
+
+  /*Navigation Menu*/
+  .main__navigation {
+    display: none;
+  }
+  /*Main Section*/
+  .main__section__image {
+    display: none;
+  }
+  .main__section > div {
+    width: 100%;
+  }
+  /*Statistics*/
+  .statistics__section {
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+  }
+  /*Section About-Me*/
+  .section__about__me__image {
+    display: none;
+  }
+  .section__about__me > div {
+    width: 100%;
+  }
+  /*Services*/
+
+  .service__cards {
+    flex: 45%;
+    margin-block: 15px;
+    flex-flow: wrap;
+  }
+  /*Blog-section*/
+  .blog-items{
+    flex-wrap: wrap;
+  }
+  .blog-item{
+    flex-basis: 45%;
+
+  }
+  /*Partners*/
+  .partners {
+    display: none;
+  }
+  /*Footer*/
+  .footer {
+    width: 100%;
+  }
+  .footer-navigation__item {
+    display: none;
+  }
+}
+
+/*For Phones*/
+@media only screen and (max-width: 767px) {
+  /*Core styles*/
+  .container {
+    width: 92%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  /*Main Section*/
+  .main-banner {
+    background: none;
+    min-height: auto;
+  }
+  .main__section__action {
+    display: none;
+  }
+
+  .main__section__welcome {
+    font-size: 1.5em;
+  }
+  .main__section__introduction {
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .main__section__position {
+    font-size: 1.3rem;
+    background: linear-gradient(
+      to right,
+      #1345e6 0%,
+      #ed239f 51%,
+      #1345e6 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  /*Statistics*/
+  .statistics__section{
+    flex-direction: column;
+  }
+  .statistics__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /*About-Me Section*/
+  .section__about__me {
+    padding: 1.5rem, 0;
+  }
+  /*Services*/
+  .service__cards{
+    flex-basis: 100%;
+  }
+
+  /*Portfolio Section*/
+  .portfolio-items {
+    margin-top: -20px;
+  }
+  .portfolio__section {
+    padding: 1.5rem, 0;
+  }
+  .portfolio-item-1,
+  .portfolio-item-2,
+  .portfolio-item-3 {
+    position: static;
+    width: 100%;
+  }
+  .rating-bar-items {
+    display: none;
+  }
+  .portfolio-item:hover .portfolio-item__overlay {
+    display: none;
+  }
+  /*Blog Section*/
+  .blog-section {
+    padding: 1.5rem, 0;
+  }
+  .blog-item {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  .blog-item-info {
+    margin-bottom: 20px;
+  }
+}

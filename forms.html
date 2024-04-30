@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Abror(DEV)" />
+    <meta name="description" content="portfolio" />
+    <meta name="keywords" content="developing,coding,portfolio,Apex X" />
+    <link rel="icon" href="/images/Alogo.png.png" />
+    <link rel="stylesheet" href="forms.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div class="container-get">
+    <div class="background">
+        <h1>Contact Us</h1>
+        <form action="/php.com" method="get" class="form">
+          <label for="firstname">First name</label>
+          <input
+            type="text"
+            id="firstname"
+            name="First-name"
+            placeholder="David"
+            required
+            autofocus
+          />
+          <label for="lastname">Second name</label>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            placeholder="Grey"
+            required
+          />
+          <label for="Country">Where are you from?</label>
+          <select name="Country" id="Country">
+            <optgroup label="Main ones">
+              <option value="USA">USA</option>
+              <option value="Uzbekistan" selected>Uzbekistan</option>
+              <option value="Russia">Russia</option>
+              <option value="Germany">Germany</option>
+              <option value="Japan">Japan</option>
+              <option value="Korea">Korea</option>
+              <option value="India">India</option>
+              <option value="France">France</option>
+            </optgroup>
+            <optgroup label="Others">
+              <option value="Other">Other</option>
+            </optgroup>
+          </select>
+          <label for="opinion">Your opinion about this web-site...</label>
+          <textarea
+            name="opinion"
+            id="opinion"
+            cols="40"
+            rows="20"
+            placeholder="Write your opinion and advice right here...."
+          ></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
